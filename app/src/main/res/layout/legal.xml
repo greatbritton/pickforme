@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pickforme Terms and Conditions  By using the app, Pickforme, and by checking the box following the sentence “I agree to the  terms and conditions,” I agree to everything within this document, referred to as the Terms and  Conditions.  The owner(s), developer(s), creator(s), and/or publisher(s) of this application, Pickforme, cannot  be held liable in any way, monetarily or otherwise, for anything related to this app, or otherwise.  This means that any litigations cannot be directed against the application Pickforme, or its  owner(s), developer(s), creator(s), and/or publisher(s) in any way. This lack of liability includes,  but is not limited to: the food ordered using this application not arriving in a timely fashion; the  food ordered using this application not ever arriving; the food ordered using this application not  being desirable; the food ordered using this application being harmful, dangerous, inedible,  and/or poisonous; the food ordered using this application costing more or less than the amount  specified by the user; any illegal or unlawful activity perpetrated by an employee from where the  food ordered using this application was ordered; the proper or improper use of this app results in  injury, or even death; or the food ordered using this application is not even food at all.  I also relinquish any rights I may have to sue, litigate, prosecute, or by any other means to try to  take money from or try to get the owner(s), developer(s), creator(s), and/or publisher(s) of this  application in trouble with the law.  I also agree that the owner(s), developer(s), creator(s), and/or publisher(s) are also not liable if  any or all of my personal information is stolen by any means. This means that if my name, phone  number, address, credit card number, debit card number, or any other information of mine is  exposed in any way, I agree that the owner(s), developer(s), creator(s), and/or publisher(s) of this  application, as well as the application itself, are not to be held liable in any way.  I have read and understand all of these terms and conditions, and I agree to all of them."
+            android:id="@+id/textView32"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="144dp" />
+    </RelativeLayout>
+</LinearLayout>
